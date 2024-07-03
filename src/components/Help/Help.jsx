@@ -23,7 +23,7 @@ const Help = () => {
                 empathy, ensuring that they receive the attention and care they
                 deserve.
               </p>
-              <button className="flex gap-3 rounded-xl bg-[#FFC637]">
+              <button className="flex items-center gap-3 rounded-xl bg-[#FFC637]">
                 {" "}
                 Learn more <FiArrowUpRight />
               </button>

@@ -1,0 +1,21 @@
+.appointment {
+    background:
+        radial-gradient(108.45% 641.36% at 98.23% 78.35%, rgba(2, 0, 67, 0.3) 0%, rgba(2, 0, 67, 1) 100%),
+        url('../../assets/humen-image/image1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+    background-blend-mode: darken;
+}
+
+.appointment div h1 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: white;
+    width: 530px;
+}
+

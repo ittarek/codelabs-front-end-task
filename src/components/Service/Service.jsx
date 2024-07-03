@@ -20,7 +20,7 @@ const Service = () => {
               every patient we serve. Whatever your healthcare needs may be, you
               can trust us to be your partner in health and wellness.
             </p>
-            <button className="flex gap-3 rounded-xl bg-[#FFC637]">
+            <button className="flex items-center gap-3 rounded-xl bg-[#FFC637]">
               Appointment <FiArrowUpRight />
             </button>
           </div>
