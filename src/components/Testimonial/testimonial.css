@@ -1,0 +1,42 @@
+.testimonial div h1 {
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 28.5px;
+    text-align: left;
+    width: 331px;
+    height: 57px;
+}
+
+.testimonial div p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    width: 331px;
+    height: 72px;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.div {
+    background-color: #fafaec;
+    padding: 15px 20px 10px 20px;
+    border-radius: 10px;
+
+}
+
+.testimonial div div img {
+    width: 10%;
+    height: 5%;
+    border-radius: 100%;
+
+}
+
+.testimonial div div img {
+    width: 40px;
+    height: 40px;
+
+
+}

@@ -8,9 +8,9 @@ import oldGirl from "../../assets/humen-image/image2.png";
 const Service = () => {
     return (
       <Container>
-        <section className="service w-full my-[200px] grid grid-cols-1 lg:grid-cols-2  gap-11">
+        <section className="service  mx-auto   my-[200px] grid grid-cols-1 lg:grid-cols-2  gap-11">
           {/* div 1 */}
-          <div className="text_side space-y-3">
+          <div className="text_side space-y-3 p-6">
             <button className="border border-[#343268] rounded-full">
               Service
             </button>
