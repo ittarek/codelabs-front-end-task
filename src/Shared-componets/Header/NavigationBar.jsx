@@ -3,10 +3,12 @@ import "./NavigationBar.css";
 import { FiArrowUpRight } from "react-icons/fi";
 // import { slide as Menu } from "react-burger-menu";
 // import { bubble as Menu } from "react-burger-menu";
-import { scaleRotate as Menu } from "react-burger-menu";
+// import { scaleRotate as Menu } from "react-burger-menu";
+import { fallDown as Menu } from "react-burger-menu";
 import { Divide as Hamburger } from "hamburger-react";
 import logo from "../../assets/humen-image/logodark.png";
 import { Link } from "react-router-dom";
+import Container from "../Container/Container";
 const NavigationBar = () => {
     const [isOpen, setOpen] = useState(false);
 
@@ -14,9 +16,9 @@ const NavigationBar = () => {
       setOpen(state.isOpen);
     };
   return (
-    <nav className="">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div className=" flex h-16 items-center justify-between">
+    <Container>
+    
+        <div className=" flex h-16 items-center justify-between lg:mx-9 mx-auto">
           <label className="  lg:hidden">
             <Hamburger
               size={20}
@@ -30,7 +32,7 @@ const NavigationBar = () => {
           </div>
           <div className="flex  items-center justify-center sm:items-stretch sm:justify-start">
             {/* desktop menu */}
-            <div className=" hidden sm:ml-6 sm:block">
+            <div className=" hidden  sm:block">
               <div className="flex space-x-4 ">
                 <Link
                   to=""
@@ -93,8 +95,8 @@ const NavigationBar = () => {
             </li>
           </ul>
         </Menu>
-      </div>
-    </nav>
+
+    </Container>
   );
 };
 

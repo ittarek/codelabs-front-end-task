@@ -1,10 +1,13 @@
 import React from 'react';
+import Banner from './components/Banner/Banner';
+import Comprehensive from './components/Comprehensive/Comprehensive';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <>
+<Banner/>
+<Comprehensive/>
+    </>
   );
 };
 
