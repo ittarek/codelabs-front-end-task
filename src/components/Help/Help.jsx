@@ -6,7 +6,7 @@ import  helpImage from "../../assets/humen-image/image5.png"
 const Help = () => {
     return (
       <Container>
-        <section className="my-11">
+        <section className="my-[100px]">
           <div className="lg:flex justify-between items-center gap-11">
             <div className="text_side w-[50%] space-y-6">
               <button className="border  border-[#343268] rounded-full">
@@ -33,7 +33,7 @@ const Help = () => {
             </div>
           </div>
 
-          <div className="extra_section rounded-[32px] w-[395px] h-[210px] absolute top-[1354px] left-[636px] bg-[#343268] p-[30px] text-white">
+          <div className="extra_section rounded-[32px] w-[395px] h-[210px] absolute top-[1354px] left-[636px] bg-[#343268] p-[30px] text-white ">
             <h1 className="mb-6">Our mission is simple</h1>
             <p className="w-[347px]">
               To provide high-quality healthcare services <br /> that are
