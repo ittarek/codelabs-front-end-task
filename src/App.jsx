@@ -1,6 +1,7 @@
 import Banner from './components/Banner/Banner';
 import Comprehensive from './components/Comprehensive/Comprehensive';
 import Help from './components/Help/Help';
+import Question from './components/Question/Question';
 import Service from './components/Service/Service';
 import Testimonial from './components/Testimonial/Testimonial';
 
@@ -12,6 +13,7 @@ const App = () => {
 <Help/>
 <Service/>
 <Testimonial/>
+<Question/>
 
 
 

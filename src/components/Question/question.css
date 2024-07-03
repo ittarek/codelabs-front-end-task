@@ -1,0 +1,43 @@
+.question div {
+    background: #fafaec;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+
+.title h1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.sub_title h2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    margin: 20px 0;
+}
+
+.sub_title p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #343268;
+    background: #ffff;
+    padding:  10px 0;
+}
+
+.question div span {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;
+}

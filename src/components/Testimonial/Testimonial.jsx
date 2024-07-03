@@ -24,7 +24,7 @@ const Testimonial = () => {
           </h1>
         </div>
 
-        <div className="testimonial lg:flex justify-between items-center space-y-6 lg:space-y-0">
+        <div className="testimonial lg:flex justify-between items-center gap-3 space-y-6 lg:space-y-0">
           {/* div 1 */}
           <div className="div">
             <h1>Expertise and Compassion Combined</h1>
