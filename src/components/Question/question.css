@@ -1,5 +1,5 @@
 .question div {
-    background: #fafaec;
+    background: #FFFFF5;
     margin-bottom: 10px;
     margin-top: 10px;
     border-radius: 10px;
@@ -31,7 +31,7 @@
     line-height: 24px;
     color: #343268;
     background: #ffff;
-    padding:  10px 0;
+  
 }
 
 .question div span {
@@ -40,4 +40,5 @@
     font-weight: 500;
     line-height: 24.2px;
     text-align: left;
+    padding: 0 !important;
 }

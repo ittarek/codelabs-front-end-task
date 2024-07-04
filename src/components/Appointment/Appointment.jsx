@@ -6,7 +6,7 @@ import logo2 from "../../assets/humen-image/logoLight.png"
 const Appointment = () => {
     return (
       <Container>
-        <section className="appointment flex justify-between p-11 my-11 h-[]">
+        <section className="appointment flex justify-between p-11 my-[150px]">
           <div className="p-24">
             <h1>
               Get Your <br /> First Appointment <br /> at 50% Off!

@@ -13,7 +13,7 @@ import { FiArrowDown } from "react-icons/fi";
 const Question = () => {
     return (
       <Container>
-        <section>
+        <section className='-my-24'>
           <div className="title">
             <button className="border border-[#343268] rounded-full px-6 py-1">
               Feq
@@ -22,7 +22,7 @@ const Question = () => {
           </div>
 
           <div className="h-screen question w-full">
-            <div className="sub_title mx-auto w-full">
+            <div className="sub_title ">
               <h2> What are your office hours?</h2> <hr />
               <p>
                 Our office hours vary by location, but typically we are open

@@ -8,11 +8,11 @@ import linkedIn from "../../assets/groupImage/in.png";
 import youtube from "../../assets/groupImage/youtube.png"
 const Footer = () => {
   return (
-    <footer className="bg-[#020043]">
+    <footer className="bg-[#020043] ">
       <Container>
         <section className="lg:flex justify-between items-center py-24">
           {/* div 1 */}
-          <div className="text-white">
+          <div className="text-white w-[250px] space-y-3 footer_contact">
             <img src={footerImage} alt="" />
             <p>123 Main Street Anytown, USA Postal Code: 12345</p>
 
@@ -50,14 +50,16 @@ const Footer = () => {
             </Link>
           </div>
           {/* social  */}
-          <div className="text-white">
-            <h1>Follow Us</h1>
-            <div className="flex items-center gap-3">
-              <img src={fb} alt="" />
+          <div className="text-white  space-y-11">
+            <div>
+              <h1>Follow Us</h1>
+              <div className="flex items-center gap-3 mt-3">
+                <img src={fb} alt="" />
 
-              <img src={insta} alt="" />
-              <img src={linkedIn} alt="" />
-              <img src={youtube} alt="" />
+                <img src={insta} alt="" />
+                <img src={linkedIn} alt="" />
+                <img src={youtube} alt="" />
+              </div>
             </div>
 
             <p>@docplus 2024</p>

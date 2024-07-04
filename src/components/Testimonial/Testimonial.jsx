@@ -7,7 +7,7 @@ import user3 from "../../assets/humen-image/user3.jpeg"
 const Testimonial = () => {
   return (
     <Container>
-      <section className="my-11">
+      <section className="my-[150px]">
         <div className="text-left mb-11">
           <button className="border border-[#343268] rounded-full p-3 " style={{fontFamily:"inter" , fontWeight:"400", fontSize:"16px"}}>
             Testimonial
@@ -26,7 +26,7 @@ const Testimonial = () => {
 
         <div className="testimonial lg:flex justify-between items-center gap-3 space-y-6 lg:space-y-0">
           {/* div 1 */}
-          <div className="div">
+          <div className="div ">
             <h1>Expertise and Compassion Combined</h1>
             <p>
               I can,t thank enough for their exceptional care. The doctors and

@@ -5,7 +5,9 @@ import Container from "./../../Shared-componets/Container/Container";
 const Banner = () => {
   return (
     <Container>
-      <img className="mx-auto my-9" src={bannerImage} alt="" />
+      <div className="mx-auto my-9 banner_img rounded-[20px]  w-full img-fluid">
+        {" "}
+      </div>
     </Container>
   );
 };

@@ -12,9 +12,9 @@ import { FaStar } from "react-icons/fa";
 const Comprehensive = () => {
   return (
     <Container>
-      <section className="my-[100px] compare">
+      <section className="my-24 compare  ">
         <div
-          className=" absolute lg:top-[125%] lg:left-[28%] xl:left-[31%] xl:top-[105%] w-[532px] h-[112px] inline-block text-center text-[48px] "
+          className=" absolute h-screen lg:mt-[1px] lg:left-[28%] xl:left-[31%] xl:top-[125%] w-[532px]   text-center text-[48px] "
           style={{ fontWeight: "600", lineHeight: "56.11px" }}
         >
           Comprehensive Care <br /> for Every Patient
