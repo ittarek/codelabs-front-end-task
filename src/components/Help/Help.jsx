@@ -8,13 +8,13 @@ const Help = () => {
     <Container>
       <section className="">
         <div className="lg:flex justify-between items-center gap-11">
-          <div className="text_side space-y-6 w-1/2">
-            <button className="border  border-[#343268] rounded-full">
+          <div className="text_side space-y-6 lg:w-1/2  mx-auto text-center lg:text-left">
+            <button className="border  border-[#343268] rounded-full ">
               {" "}
               Who we are
             </button>
-            <h1 className="w-[350px]">We Help To Get Soultions</h1>
-            <p className="w-[px]">
+            <h1 className="lg:w-[350px] w-full text-center mx-auto lg:text-left lg:mx-0">We Help To Get Soultions</h1>
+            <p className="w-100">
               We are proud to be a trusted healthcare provider in our community,
               and we look forward to serving you and your family with
               excellence, integrity, and compassion. Your health is our
@@ -23,12 +23,12 @@ const Help = () => {
               empathy, ensuring that they receive the attention and care they
               deserve.
             </p>
-            <button className="flex items-center gap-3 rounded-xl bg-[#FFC637]">
+            <button className="flex items-center gap-3 rounded-xl bg-[#FFC637] mx-auto lg:mx-0">
               {" "}
               Learn more <FiArrowUpRight />
             </button>
           </div>
-          <div>
+          <div className="mt-11">
             <img src={helpImage} alt="" />
           </div>
         </div>

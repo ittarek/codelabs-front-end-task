@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#020043] ">
       <Container>
-        <section className="lg:flex justify-between items-center py-24">
+        <section className="lg:flex justify-between items-center py-24   mx-auto">
           {/* div 1 */}
           <div className="text-white w-[250px] space-y-3 footer_contact">
             <img src={footerImage} alt="" />

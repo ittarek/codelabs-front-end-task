@@ -63,7 +63,10 @@ const NavigationBar = () => {
 
         {/* button */}
         <div className=" inset-y-0 right-0 space-x-1 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-          <button className="border  border-[#343268] rounded-lg flex items-center gap-2 p-2 text-[#343268]" style={{fontFamily:"inter"}} >
+          <button
+            className="border  border-[#343268] rounded-lg flex items-center gap-2 p-2 text-[#343268]"
+            style={{ fontFamily: "inter" }}
+          >
             Appointment <FiArrowUpRight />{" "}
           </button>
         </div>
@@ -77,23 +80,30 @@ const NavigationBar = () => {
         className=" bg-slate-400 menu menu-sm  
           "
       >
-        <ul className="text-white">
-          <li>
-            <Link className="text-xl  my-3" to="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="text-xl  my-3" to="/about">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link className="text-xl  my-3" to="/myProtFolio">
-              My ProtFolio
-            </Link>
-          </li>
-        </ul>
+        <Link
+          to=""
+          className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white"
+        >
+          Home
+        </Link>
+        <Link
+          to=""
+          className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white"
+        >
+          Services
+        </Link>
+        <Link
+          to=""
+          className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white"
+        >
+          Blog
+        </Link>
+        <Link
+          to=""
+          className="rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white"
+        >
+          About us
+        </Link>
       </Menu>
     </Container>
   );

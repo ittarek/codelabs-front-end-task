@@ -8,15 +8,15 @@ const Testimonial = () => {
   return (
     <Container>
       <section className="my-[150px]">
-        <div className="text-left mb-11">
+        <div className="lg:text-left text-center mb-11">
           <button className="border border-[#343268] rounded-full p-3 " style={{fontFamily:"inter" , fontWeight:"400", fontSize:"16px"}}>
             Testimonial
           </button>
-          <h1
+          <h1 className="w-100 lg:text-[36px] text-2xl"
             style={{
               fontFamily: "inter",
               fontWeight: "600",
-              fontSize: "36px",
+          
               lineHeight: "54px",
             }}
           >

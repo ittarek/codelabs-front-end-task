@@ -14,11 +14,11 @@ const Question = () => {
     return (
       <Container>
         <section className='-my-24'>
-          <div className="title">
-            <button className="border border-[#343268] rounded-full px-6 py-1">
+          <div className="title w-full mx-auto" >
+            <button className="border border-[#343268] rounded-full px-6 mx-auto w-100  py-1">
               Feq
             </button>
-            <h1>Frequntly Asked Question</h1>
+            <h1 className='text-center lg:text-left'>Frequntly Asked Question</h1>
           </div>
 
           <div className="h-screen question w-full">

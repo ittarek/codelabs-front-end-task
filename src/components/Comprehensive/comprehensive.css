@@ -35,3 +35,12 @@
 .compare div:last-child img {
     margin: 15% auto;
 }
+
+@media screen and (min-width: 640px){
+.compare div:nth-child(4) img {
+        position: relative;
+        margin: 15% 0% 0% -50%;
+        background: #000;
+
+    }
+}
